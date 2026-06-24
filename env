@@ -1,34 +1,9 @@
-# Copy this file to .env and fill in your values
-# Never commit .env to version control
-
-# ── Required ─────────────────────────────────────────────────
-TG_BOT_TOKEN=your_bot_token_here
-APP_ID=12345678
-API_HASH=your_api_hash_here
-OWNER_ID=123456789
-CHANNEL_ID=-1001234567890
-DATABASE_URL=mongodb://mongo:27017
-
-# ── Optional ─────────────────────────────────────────────────
+TG_BOT_TOKEN=8957819603:AAG9Yq9yh6JcOWV1vh-vrhHswrJaxKxPg7o
+APP_ID=14298205
+OWNER_ID=1458235021
+ADMINS=1458235021
+API_HASH=28df6d84da76d8606bf5f0e71ecfb62c
+CHANNEL_ID=-1001755253960
+DATABASE_URL=mongodb+srv://Sadacaren4:alpha3720@nakflixtvbot.vtjzajt.mongodb.net/?retryWrites=true&w=majority
 DATABASE_NAME=fileshare_bot
-TG_BOT_WORKERS=4
-PORT=8089
-ADMINS=                          # space-separated extra admin IDs
-
-# Force-subscribe channels (JSON array)
-# Each entry needs "id" (required), "name" (shown on button), "username" (public channels only)
-FORCE_SUB_CHANNELS=[{"id":-1001111111111,"name":"My Channel","username":"mychannel"}]
-
-# Customisable messages — use {first} for the user's first name
-START_MESSAGE=<b>Hello {first}! 👋\nWelcome to the file-sharing bot.</b>
-FORCE_SUB_MESSAGE=<b>Hello {first}! 👋</b>\n\nPlease join the required channels below, then press ✅ Verify Membership.
-REJOIN_MESSAGE=<b>⚠️ Access Revoked</b>\n\nHi {first}, you left a required channel. Rejoin and press ✅ Verify Membership.
-
-# Custom caption appended to every file (leave empty to use original caption)
-CUSTOM_CAPTION=
-
-# Set True to prevent users forwarding files out of the bot
-PROTECT_CONTENT=False
-
-# Set True to suppress the auto-generated share button on DB channel posts
-DISABLE_CHANNEL_BUTTON=False
+FORCE_SUB_CHANNELS=[{"id":-1001899642588,"name":"Channel One"},{"id":-1001849467785,"name":"Channel Two"},{"id":-1001855603689,"name":"Channel Three"},{"id":-1001895335215,"name":"Channel Four"}]
